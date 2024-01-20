@@ -121,3 +121,80 @@ body{
     transition-timing-function: ease;
     color: rgb(94, 255, 0);
 }
+
+/* registaion form css*/
+body{
+    background-color: rgb(0, 0, 0);
+}
+.userRegistaion form{
+    
+    position: relative;
+    top: 50px;
+}
+.userRegistaion{
+    margin-top: 70px;
+    margin-left: 48%;
+    background-color:rgb(0, 0, 0) ;
+    width: 450px;
+    height: 500px;
+}
+
+.userRegistaion input{
+    
+    outline: none;
+    border: none;
+    border-radius: 8px;
+     margin-left: 68px;
+     top: 20px;
+    position: relative;
+    left: auto;
+    right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 35px ; 
+margin-bottom: 20px;
+    
+}
+.userRegistaion h3{
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 23px;
+    top: 10px;
+    text-align: center;
+}
+.userRegistaion button{
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    left: 66px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 35px;
+    bottom: 10px;
+}
+.nextreg{
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+.userRegistaion button {
+    font-family:sans-serif;
+    font-weight: 700 ;
+}
+.userRegistaion button a{
+    text-decoration: none;
+    color: rgb(0, 6, 12);
+    font-weight: 800;
+}
+.aigirls{
+    margin-left: 20px;
+    position: fixed;
+    width: 30px;
+}
