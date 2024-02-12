@@ -198,3 +198,212 @@ margin-bottom: 20px;
     position: fixed;
     width: 30px;
 }
+body {
+    background-color: #f3f3f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginsingupbtn button {
+    
+    width: 147px;
+    height: 40px;
+    /* margin-right: 0 100px; */
+    border-radius: 26px;
+}
+.Signinbtn{
+    position: relative;
+    background-color: rgb(53, 151, 231) ;
+    border: none;
+    color: white;
+    font-weight: 700;
+    right: 25px;
+    top: 10px;
+    border-color: rgb(53, 151, 231);
+}
+.Loginbtn{
+    position: relative;
+    right: 40px;
+    top: 10px;
+    background-color: white;
+    color: rgb(53, 151, 231);
+    font-weight: 700;
+    
+    border: 2px solid rgb(53, 151, 231);
+}
+
+.mainnavbar {
+    
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    display: flex;
+    /* justify-content:space-around; */
+    /* align-items: center; */
+
+}
+.weblogo {
+    position: relative;
+    
+    left: 100px;
+    bottom: 40px;
+
+   
+}
+.weblogo img{
+    width: 140px;
+}
+.navbarcontent ul {
+    list-style: none;
+
+
+}
+
+.navbarcontent{
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 20px;
+}
+.navbarcontent a {
+    
+    position: relative;
+    top: 10px;
+    right: 100px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    list-style: none;
+    padding: 0px 15px;
+    color: rgb(122, 133, 143);
+    text-decoration: none;
+}
+
+.navbarcontent a:hover {
+    color: rgb(53, 151, 231);
+    transition-timing-function: ease-out;
+    animation-duration: 3s;
+    cursor:pointer;
+}
+.rightpart{
+    display: flex;
+    justify-content: end;
+}
+.rightpart img{
+    right: 30px;
+    position: fixed;
+}
+.pgcontent h3{
+    position: relative;
+    top: 60px;
+    left: 100px;
+width: 450px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 45px;
+ text-indent: 5px;
+ line-height: 65px;
+}
+.pgcontent p{
+    height: 100px;
+    color: #868282;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 478px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+.pgcontent button{
+    height: 40px;
+    font-family: sans-serif;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    background-color: white;
+    font-weight: 700;
+    width: 160px;
+    /* height: 40px; */
+    top: 80px;
+    border-radius: 20px
+}
+ .pgcontent .stbtnhomepage{
+    font-size: 15px;
+    border: none;
+    margin-right: 20px;
+    color: #ffffff;
+    background-color: rgb(53, 151, 231);
+}
+
+.pgcontent .hwbtnhomepage{
+    font-size: 15px;
+    border: 2px solid rgb(53, 151, 231);
+    background: #ffffff;
+    color: rgb(53, 151, 231);
+}
+.sec01{
+    margin-right: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 100px;
+
+}
+    .sec01 h1{
+        
+        font-size: 30px;
+        color: rgb(216, 203, 22);
+}
+    .pgcontent .sec01 p{
+        font-size: 10px;
+        color: black;
+        font-family: cursive;
+}
+.option{
+    display:flex ;
+}
+.sec02{
+    margin-left: 10px;
+    margin-right: 35px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 100px;
+
+}
+.sec02 h1{
+        
+    font-size: 30px;
+    color: rgb(17, 121, 153);
+}
+.pgcontent .sec01 p{
+    font-size: 10px;
+    color: black;
+    font-family: cursive;
+}
+.sec03{
+    margin-right: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 100px;
+
+}
+.sec03 h1{
+        
+    font-size: 30px;
+    color: rgb(216, 106, 33);
+}
+.pgcontent .sec03 p{
+    font-size: 10px;
+    color: black;
+    font-family: cursive;
+}
